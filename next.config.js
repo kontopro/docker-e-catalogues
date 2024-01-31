@@ -4,11 +4,9 @@
  */
 const nextConfig = {
   trailingSlash: true,
-  // main BasePath
-  basePath: '',
-  // for Electron basePath
-  // basePath: '/Users/dad/code/electron-desktop-catalogues/out',
+  basePath: '',  
   output: 'export',
+  // output: "standalone",
   images: { unoptimized: true },
    
   }
