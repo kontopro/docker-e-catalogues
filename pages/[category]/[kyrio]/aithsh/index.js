@@ -51,7 +51,7 @@ export default function Aithsh(){
           </tbody>:
           <tbody>    
           {aithsh.map(x=>
-            <tr key={x.ao}>
+            <tr key={x.id}>
               <td> </td>
               <td>{x.ao?x.ao:x.pn}</td>
               <td>{x.ao?'':check} </td>
